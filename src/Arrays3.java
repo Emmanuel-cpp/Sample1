@@ -11,6 +11,9 @@ public class Arrays3 {
             nums[i] = sc.nextInt();
             sum += nums[i];
         }
+        float average = 0.0f;
+        average = (sum/nums.length);
+        System.out.println("THE AVERAGE OF THE NUMBERS IS "+average);
         System.out.println("THE SUM OF THE NUMBERS YOU ENTERED IS "+sum);
         sc.close();
     }
